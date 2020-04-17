@@ -13,7 +13,7 @@ export default class TodoList extends Component {
           return (
             <TodoItem
               key={item.id}
-              title={item.title}
+              title={item.item}
               handleDelete={() => handleDelete(item.id)}
               handleEdit={() => handleEdit(item.id)}
             />
